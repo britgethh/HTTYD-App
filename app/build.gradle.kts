@@ -56,4 +56,13 @@ dependencies {
     androidTestImplementation(libs.androidx.ui.test.junit4)
     debugImplementation(libs.androidx.ui.tooling)
     debugImplementation(libs.androidx.ui.test.manifest)
+    // 1. Navegación en Compose
+    implementation("androidx.navigation:navigation-compose:2.8.0") // O la versión estable más reciente
+
+    // 2. Retrofit (Networking) y Gson (Conversor de JSON)
+    implementation("com.squareup.retrofit2:retrofit:2.9.0")
+    implementation("com.squareup.retrofit2:converter-gson:2.9.0")
+
+    // 3. Coil (Carga de imágenes asíncrona)
+    implementation("io.coil-kt:coil-compose:2.7.0")
 }
